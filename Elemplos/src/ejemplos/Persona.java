@@ -8,11 +8,6 @@ public class Persona {
         apellido = a;
     }
 
-    public void setNombre(String n, String n2) {
-        nombre = n;
-        nombre2 = n2;
-    }
-
     public String getApellido() {
         return apellido;
     }
@@ -20,6 +15,11 @@ public class Persona {
     public void setNombre(String n) {
         nombre = n;
         nombre2 = "";
+    }
+    
+    public void setNombre(String n, String n2) {
+        nombre = n;
+        nombre2 = n2;
     }
 
     public String getNombre() {
